@@ -1,3 +1,5 @@
+package 정수찾기;
+
 public class find_integer {
     public static void main(String[] args) {
         int[] num_list = {1,2,3,4,5};

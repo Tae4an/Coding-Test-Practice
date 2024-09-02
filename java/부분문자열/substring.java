@@ -1,3 +1,5 @@
+package 부분문자열;
+
 public class substring {
     public static int solution(String str1, String str2) {
         if (str2.contains(str1)) {

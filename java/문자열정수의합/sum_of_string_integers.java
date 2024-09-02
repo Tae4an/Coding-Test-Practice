@@ -1,4 +1,6 @@
-public class Main {
+package 문자열정수의합;
+
+public class sum_of_string_integers {
     public int solution(String num_str) {
         int sum = 0;
         // 문자열의 각 문자에 대해 반복
@@ -10,7 +12,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        sum_of_string_integers sol = new sum_of_string_integers();
         System.out.println(sol.solution("123456789"));  // 출력: 45
         System.out.println(sol.solution("1000000"));    // 출력: 1
     }
