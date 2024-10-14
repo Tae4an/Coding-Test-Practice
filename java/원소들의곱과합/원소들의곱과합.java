@@ -1,3 +1,5 @@
+package 원소들의곱과합;
+
 class Solution {
     public int solution(int[] num_list) {
         int sum = 0;
